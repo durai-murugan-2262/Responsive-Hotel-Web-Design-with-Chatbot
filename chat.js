@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val().toLowerCase();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "I love this website!";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
